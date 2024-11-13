@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foco Food Order</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <span>f</span>
+            <span class="red">o</span>
+            <span>c</span>
+            <span class="red">o</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </nav>
+
+        <div class="cart">
+            <button type="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button><i class="fa-solid fa-basket-shopping"></i>0</button> 
+        </div>
+        
+        <div class="sign-up">
+            <button><i class="fa-solid fa-user-pen"></i>Sign in</button>
+            <button><i class="fa-solid fa-right-to-bracket"></i>Login</button>
+        </div>
+            
+    </header>
+
+    <!-- Main Section -->
+    <main class="main">
+        <section class="order-section">
+            <div class="order">
+                <h2>Order your <br> <span>favourite Foods</span></h2>
+                <p class="order-intro">Savor the perfect blend of spices and fresh seafood 
+                    From ocean to plate, our master chefs craft each curry 
+                    with sustainably sourced seafood and premium spices.
+                </p>
+                
+                <p class="order-intro">
+                    Experience restaurant-quality dining without leaving your home. 
+                    Ready in minutes, delivered while hot.
+                    Your journey to coastal flavors begins with just one tap.
+                </p>
+
+                <h3>Total order: <span>$24.30</span></h3>
+                
+                <div class="quantity">
+                    <button class="add"><span class="arrow">˄ |</span></button>
+                    <span class="item-num">2</span>
+                    <button class="remove"><span class="arrow">| ˅</span></button>
+                </div>
+
+                <div class="buy-item">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+           
+            <div class="food-items">
+                <!-- Add food items like Burger, Cake, Salad -->
+                <div class="food-card">
+                    <img src="https://i.ibb.co/rZb2Nwv/image.png" alt="image" width="">
+                    <p>Burger</p>
+                    <p>$3.25</p>
+                </div>
+                <div class="food-card-2">
+                    <img src="https://i.ibb.co/rZb2Nwv/image.png" alt="image" >
+                    <p>Cake</p>
+                    <p>$2.25</p>
+                </div>
+                <div class="food-card-3">
+                    <img src="https://i.ibb.co/rZb2Nwv/image.png" alt="image" width="">
+                    <p>Salad</p>
+                    <p>$5.25</p>
+                </div>
+            </div>
+        </section>
+
+       <section class="platter">
+            <div class="plate">
+                <img src="https://i.ibb.co/rZb2Nwv/image.png" alt="image" width="200px">
+            </div>
+            
+            <div class="ratings">
+                
+                <div class="timer">
+                    <div class="profile">
+                        <p>Salad</p>
+                        <p><img src="https://i.ibb.co/x5mYNLz/image.png" alt="image" width="15"> 4.7</p>
+                    </div>
+
+                    <div class="clock">
+                        <p>
+                            <img src="https://i.ibb.co/J3fNdqy/image.png" alt="image" width="15"></i> 
+                            10 - 18 mins
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <div class="footer-header">
+            <h2>Hungry for Updates?</h2>
+            <p>Supscribe to our news letter for recipes, deals, and culinary inspiration</p>
+            
+            <div class="form">
+                <form action="/submit" autocomplete="on">
+                    <label for="email"></label>
+                    <input autocomplete="on" type="email" placeholder="Enter your  email" id="email" name="email">
+                </form>
+
+                <button type="button" class="button"> Subscribe</button>
+            </div>
+
+        </div>
+
+        
+        <div class="footer-logo">
+            <h3>FoodDelight</h3>
+            <p>Bringing delicious meals to your a doorstep 2020</p>
+        </div>
+
+        <div class="footer-2">
+            <div class="quick-links">
+                <h3>Quick links</h3>
+                <ul>
+                    <li>Menu</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>123 Food Street</p>
+                <p>Cuisine City, CC 12345</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: <a href="mailto:hello@foodiedelight.com">hello@foodiedelight.com</a></p>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <h3>Follow us</h3>
+            <img src="https://i.ibb.co/QJ6Vs4x/image.png" alt="image" width="100px">
+            <img src="https://i.ibb.co/n7dMTGB/image.png" alt="image" width="100px">
+            <img src="https://i.ibb.co/4jzvsXL/image.png" alt="image" width="100px">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024 FoodDelight. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
